@@ -13,7 +13,7 @@ const CV = () => {
       boxSizing="border-box" // Ensure padding is included within the width/height
     >
       <iframe
-        src="https://drive.google.com/file/d/1tsyhvWc451nfjRTzJjSwhAGt32hwtD-C/preview"
+        src="https://drive.google.com/file/d/1MajvURvOfc5Lt43YGzSDrbamkRCQ3aHA/preview"
         title="My CV"
         style={{
           width: "80vw", // Adjust the width as necessary
