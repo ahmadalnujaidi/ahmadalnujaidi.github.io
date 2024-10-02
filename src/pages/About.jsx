@@ -16,7 +16,7 @@ const About = () => {
     <Box p={12}>
       <VStack spacing={4} align="flex-start">
         <Image
-          src="public/pfp.jpeg"
+          src="/pfp.jpeg"
           alt="Profile Picture"
           borderRadius="full"
           boxSize="200px"
