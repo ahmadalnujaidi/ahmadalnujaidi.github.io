@@ -29,11 +29,11 @@ const About = () => {
           fontSize="lg"
           color={colorMode === "dark" ? "gray.200" : "gray.800"}
         >
-          As a senior software engineering student, My dedication to excellence
-          is evident in the projects I've undertaken, each showcasing my unique
-          skills and passion for technology. I aim to make a lasting impression
-          by highlighting not just what I've done, but the innovative ways I've
-          approached each challenge
+          Hello, as a senior software engineering student, My dedication to
+          excellence is evident in the projects I've undertaken, each showcasing
+          my unique skills and passion for technology. I aim to make a lasting
+          impression by highlighting not just what I've done, but the innovative
+          ways I've approached each challenge
         </Text>
         <Text
           fontSize="lg"
