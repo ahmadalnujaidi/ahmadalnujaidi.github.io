@@ -49,11 +49,19 @@ const SkillCard = ({ skill, colorMode }) => {
     <Box {...cardStyles}>
       <Text
         fontSize="xl"
-        mb={2}
+        mb={1}
         color={colorMode === "dark" ? "gray.200" : "gray.800"}
         _groupHover={{ color: "white" }}
       >
         {skill.name}
+      </Text>
+      <Text
+        fontSize="sm"
+        mb={2}
+        color={colorMode === "dark" ? "gray.400" : "gray.600"}
+        _groupHover={{ color: "white" }}
+      >
+        {skill.type}
       </Text>
       <Tooltip
         label={`${skill.value}% Proficiency`}
@@ -90,51 +98,86 @@ const SkillCard = ({ skill, colorMode }) => {
 const About = () => {
   const { colorMode } = useColorMode(); // Get the current color mode (dark or light)
 
-  // Programming Languages Array
-  const programmingLanguages = [
+  // Combined Skills Array
+  const skills = [
     {
       name: "JavaScript",
       value: 90,
       logo: "/logos/javascript.png", // Update with your logo path
+      type: "Programming Language",
     },
     {
       name: "Python",
-      value: 75,
+      value: 80,
       logo: "/logos/python.png", // Update with your logo path
+      type: "Programming Language",
     },
     {
       name: "Java",
       value: 85,
       logo: "/logos/java.png", // Update with your logo path
+      type: "Programming Language",
+    },
+    {
+      name: "HTML",
+      value: 95,
+      logo: "/logos/html.png", // Update with your logo path
+      type: "Programming Language",
+    },
+    {
+      name: "CSS",
+      value: 85,
+      logo: "/logos/css.png", // Update with your logo path
+      type: "Programming Language",
     },
     {
       name: "SQL",
-      value: 70,
-      logo: "/logos/sql.png", // Update with your logo path
+      value: 75,
+      logo: "/logos/SQL.png", // Update with your logo path
+      type: "Programming Language",
     },
-  ];
-
-  // Frameworks Array
-  const frameworks = [
+    {
+      name: "MongoDB",
+      value: 75,
+      logo: "/logos/mongodb.png", // Update with your logo path
+      type: "DBMS",
+    },
     {
       name: "Node.js",
       value: 70,
-      logo: "/logos/nodejs.png", // Update with your logo path
+      logo: "/logos/NODE.png", // Update with your logo path
+      type: "Framework",
     },
     {
       name: "Express.js",
-      value: 75,
-      logo: "/logos/expressjs.png", // Update with your logo path
+      value: 80,
+      logo: "/logos/express.png", // Update with your logo path
+      type: "Framework",
     },
     {
       name: "React.js",
-      value: 85,
-      logo: "/logos/reactjs.png", // Update with your logo path
+      value: 90,
+      logo: "/logos/react.png", // Update with your logo path
+      type: "Framework",
     },
     {
       name: "PyTorch",
-      value: 70,
+      value: 45,
       logo: "/logos/pytorch.png", // Update with your logo path
+      type: "Framework",
+    },
+    // Add more skills here if needed
+    {
+      name: "Git",
+      value: 80,
+      logo: "/logos/git.png", // Update with your logo path
+      type: "Version Control",
+    },
+    {
+      name: "GitHub",
+      value: 80,
+      logo: "/logos/github.png", // Update with your logo path
+      type: "Version Control",
     },
   ];
 
@@ -185,48 +228,25 @@ const About = () => {
           me as a dynamic individual ready to make a significant impact.
         </Text>
 
-        {/* Programming Languages Section */}
+        {/* Skills Section */}
         <Heading
           size="lg"
           mt={8}
           color={colorMode === "dark" ? "gray.200" : "gray.800"}
           textAlign="center"
         >
-          Programming Languages
+          SKILLS
         </Heading>
 
-        {/* Programming Languages Cards */}
+        {/* Skills Cards */}
         <Box
           display="flex"
           flexWrap="wrap"
           justifyContent="center"
-          mt={4}
-          maxWidth="800px"
+          mt={1}
+          maxWidth="1200px"
         >
-          {programmingLanguages.map((skill) => (
-            <SkillCard key={skill.name} skill={skill} colorMode={colorMode} />
-          ))}
-        </Box>
-
-        {/* Frameworks Section */}
-        <Heading
-          size="lg"
-          mt={8}
-          color={colorMode === "dark" ? "gray.200" : "gray.800"}
-          textAlign="center"
-        >
-          Frameworks
-        </Heading>
-
-        {/* Frameworks Cards */}
-        <Box
-          display="flex"
-          flexWrap="wrap"
-          justifyContent="center"
-          mt={4}
-          maxWidth="800px"
-        >
-          {frameworks.map((skill) => (
+          {skills.map((skill) => (
             <SkillCard key={skill.name} skill={skill} colorMode={colorMode} />
           ))}
         </Box>
