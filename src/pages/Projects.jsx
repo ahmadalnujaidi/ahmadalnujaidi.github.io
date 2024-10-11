@@ -12,17 +12,16 @@ import {
 const projectsData = [
   {
     title: "FullStack MERN Task Management App",
-    description:
-      "developed Mongodb, Express, React, Node - fullstack application.",
+    description: "fullstack task management web application.",
     imageUrl: "/project_images/taskmanagerappdemo.png", // Replace with actual image
     githubLink:
       "https://github.com/ahmadalnujaidi/FullStack-MERN-Task-Management-App",
   },
   {
-    title: "Project 2",
-    description: "A short description of Project 2.",
-    imageUrl: "https://via.placeholder.com/300", // Replace with actual image
-    githubLink: "https://github.com/your-github/project2",
+    title: "Portfolio",
+    description: "personal portfolio website.",
+    imageUrl: "/project_images/websiteproject.jpg", // Replace with actual image
+    githubLink: "https://github.com/ahmadalnujaidi/ahmadalnujaidi.github.io",
   },
   // {
   //   title: "Project 3",
