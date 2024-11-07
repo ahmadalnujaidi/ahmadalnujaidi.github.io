@@ -12,7 +12,8 @@ import {
 const projectsData = [
   {
     title: "FullStack MERN Task Management App",
-    description: "fullstack task management web application.",
+    description:
+      "Developed Mongodb, Express, React, Node - fullstack application, also used UI/UX from Chakra UI, and React Icons library.",
     imageUrl: "/project_images/taskmanagerappdemo.png", // Replace with actual image
     githubLink:
       "https://github.com/ahmadalnujaidi/FullStack-MERN-Task-Management-App",
@@ -23,12 +24,30 @@ const projectsData = [
     imageUrl: "/project_images/websiteproject.jpg", // Replace with actual image
     githubLink: "https://github.com/ahmadalnujaidi/ahmadalnujaidi.github.io",
   },
-  // {
-  //   title: "Project 3",
-  //   description: "A short description of Project 3.",
-  //   imageUrl: "https://via.placeholder.com/300", // Replace with actual image
-  //   githubLink: "https://github.com/your-github/project3",
-  // },
+  {
+    title: "Object Detection Web Application",
+    description:
+      "Real-time object detection web application using my trained model, combined with a Generative AI model to produce storytelling descriptions of detected objects",
+    imageUrl: "public/project_images/WebAppOD.jpg", // Replace with actual image
+    githubLink:
+      "https://github.com/ahmadalnujaidi/Object-Detection-Web-Application",
+  },
+  {
+    title: "Real-Time Object Detection and Localization from Live Video",
+    description:
+      "Trained a Yolo11m model, to detect and localize objects in a live video",
+    imageUrl: "public/project_images/yolo11m.png", // Replace with actual image
+    githubLink:
+      "https://github.com/ahmadalnujaidi/Real-Time-Object-Detection-and-Localization-from-Live-Video",
+  },
+  {
+    title: "Google Developers Group Admin Dashboard",
+    description:
+      "Setup a fullstack web app for GDG admins to be able to GET/POST/PUT/DELETE 'events, users... etc.' in the database and manage the user-side website in real-time updates",
+    imageUrl: "public/project_images/AdminGDG.jpg", // Replace with actual image
+    // githubLink:
+    //   "https://github.com/ahmadalnujaidi/Real-Time-Object-Detection-and-Localization-from-Live-Video",
+  },
   // Add more projects as needed
 ];
 
