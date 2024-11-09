@@ -28,7 +28,7 @@ const projectsData = [
     title: "Object Detection Web Application",
     description:
       "Real-time object detection web application using my trained model, combined with a Generative AI model to produce storytelling descriptions of detected objects",
-    imageUrl: "public/project_images/WebAppOD.jpg", // Replace with actual image
+    imageUrl: "/project_images/WebAppOD.jpg", // Replace with actual image
     githubLink:
       "https://github.com/ahmadalnujaidi/Object-Detection-Web-Application",
   },
@@ -36,7 +36,7 @@ const projectsData = [
     title: "Real-Time Object Detection and Localization from Live Video",
     description:
       "Trained a Yolo11m model, to detect and localize objects in a live video",
-    imageUrl: "public/project_images/yolo11m.png", // Replace with actual image
+    imageUrl: "/project_images/yolo11m.png", // Replace with actual image
     githubLink:
       "https://github.com/ahmadalnujaidi/Real-Time-Object-Detection-and-Localization-from-Live-Video",
   },
@@ -44,7 +44,7 @@ const projectsData = [
     title: "Google Developers Group Admin Dashboard",
     description:
       "Setup a fullstack web app for GDG admins to be able to GET/POST/PUT/DELETE 'events, users... etc.' in the database and manage the user-side website in real-time updates",
-    imageUrl: "public/project_images/AdminGDG.jpg", // Replace with actual image
+    imageUrl: "/project_images/AdminGDG.jpg", // Replace with actual image
     // githubLink:
     //   "https://github.com/ahmadalnujaidi/Real-Time-Object-Detection-and-Localization-from-Live-Video",
   },
