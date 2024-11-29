@@ -200,32 +200,14 @@ const About = () => {
           fontSize="lg"
           color={colorMode === "dark" ? "gray.200" : "gray.800"}
         >
-          Hello, as a senior software engineering student, my dedication to
-          excellence is evident in the projects I've undertaken, each showcasing
-          my unique skills and passion for technology. I aim to make a lasting
-          impression by highlighting not just what I've done, but the innovative
-          ways I've approached each challenge.
-        </Text>
-        <Text
-          fontSize="lg"
-          color={colorMode === "dark" ? "gray.200" : "gray.800"}
-        >
-          My enthusiasm for full-stack development, machine learning, and
-          artificial intelligence drives me to delve deep into both the
-          theoretical and practical aspects of these fields. I enjoy crafting
-          seamless user experiences while also building robust back-end systems.
-          Exploring the frontiers of AI and machine learning, I'm excited about
-          the potential these technologies have to transform industries.
-        </Text>
-        <Text
-          fontSize="lg"
-          color={colorMode === "dark" ? "gray.200" : "gray.800"}
-        >
-          Eager to learn, grow, and develop, I view every opportunity as a
-          chance to expand my horizons. I'm committed to continuous improvement,
-          always seeking out new challenges that push my abilities to the next
-          level. My forward-looking mindset and passion for technology position
-          me as a dynamic individual ready to make a significant impact.
+          I bridge imagination and functionality, crafting sleek interfaces on
+          the surface while maintaining rock-solid code behind the scenes. I'm a
+          digital architect, building the full journey of software - from pixels
+          to packets, and everything in between. I take ideas from wireframes to
+          databases, stitching together front and back ends to create elegant,
+          functional solutions. Whether I'm navigating the front-end forest or
+          tackling back-end dungeons, I thrive in turning complexity into
+          seamless user experiences that truly come to life.
         </Text>
 
         {/* Skills Section */}
